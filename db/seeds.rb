@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Picture.destroy_all
 
-Picture.create!({url:"ahjsdhkashd"})
+Picture.create!({ url:"https://files.slack.com/files-pri/T2W1Y7Y77-F2X6B09NF/img_1046.jpg" })

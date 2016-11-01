@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  root 'photos#index'
+  root 'pictures#index'
 
-  post 'photos' => 'photos#create', defaults: {format: :json}
-  get 'photos' => 'photos#index', defaults: {format: :json}
+  post 'pictures' => 'pictures#create', defaults: {format: :json}
+  get 'pictures' => 'pictures#index', defaults: {format: :json}
 end
